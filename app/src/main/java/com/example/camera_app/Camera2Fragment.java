@@ -59,7 +59,7 @@ public class Camera2Fragment extends Fragment implements View.OnClickListener{
     private CaptureRequest mPreviewRequest;
     long prev_time = 0;
     int init_count = 0;
-    int bins = 32;
+    int bins = 8;
     Complex[] intensity_frames = new Complex[bins];
     double frames_per_second = 0.0;
     int count = 0;
